@@ -1,0 +1,73 @@
+[data-md-color-primary="indigo"] .md-header, [data-md-color-primary="indigo"] .md-hero {
+    background-color: #01FE03;
+}
+
+[data-md-color-accent="indigo"] .md-nav__link,
+[data-md-color-accent="indigo"] .md-typeset .footnote li,
+[data-md-color-accent="indigo"] .md-typeset .md-clipboard:active,
+[data-md-color-accent="indigo"] .md-typeset [id],
+[data-md-color-primary="indigo"] .md-typeset a {
+    color: #016601;
+}
+
+[data-md-color-accent="indigo"] .md-nav__link:focus,
+[data-md-color-accent="indigo"] .md-nav__link:hover,
+[data-md-color-accent="indigo"] .md-typeset .footnote li:hover .footnote-backref:hover,
+[data-md-color-accent="indigo"] .md-typeset .footnote li:target .footnote-backref,
+[data-md-color-accent="indigo"] .md-typeset .md-clipboard:active::before,
+[data-md-color-accent="indigo"] .md-typeset .md-clipboard:hover::before,
+[data-md-color-accent="indigo"] .md-typeset [id] .headerlink:focus,
+[data-md-color-accent="indigo"] .md-typeset [id]:hover .headerlink:hover,
+[data-md-color-accent="indigo"] .md-typeset [id]:target .headerlink
+[data-md-color-primary="indigo"] .md-typeset a:hover,
+[data-md-color-primary="indigo"] .md-typeset a:focus, 
+[data-md-color-accent="indigo"] .md-typeset a:active,
+[data-md-color-accent="indigo"] .md-typeset a:hover {
+    color: #01b201;
+}
+
+.md-header{
+    color: #333333;
+}
+
+input.md-search__input::-webkit-input-placeholder {
+    color: #000;
+}
+input.md-search__input:-moz-placeholder {
+
+    color: #000;
+}
+input.md-search__input::-moz-placeholder {
+
+    color: #000;
+}
+input.md-search__input:-ms-input-placeholder {
+    color:#000;
+}
+
+.md-main {
+    background-color: #eee;
+}
+
+.md-main__inner {
+    padding: 0;
+}
+
+.md-content {
+    background-color: #fff;
+    height: 100%;
+    border-left: 1px solid rgba(0,0,0,0.25);
+    border-right: 1px solid rgba(0,0,0,0.25);
+    -webkit-box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.35);
+    -moz-box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.35);
+    box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.35);
+}
+
+article img {
+    display: block;
+    margin: 0 auto;
+}
+
+.md-footer-copyright {
+    padding: 1.8rem 0;
+}
